@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "libp2p",
+  "version": "1.0.0",
+  "description": "\"chat application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^12.0.0",
+    "@libp2p/mplex": "^8.0.3",
+    "@libp2p/tcp": "^7.0.1",
+    "libp2p": "^0.45.1"
+  }
+}
